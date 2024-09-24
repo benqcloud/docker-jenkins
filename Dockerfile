@@ -8,7 +8,7 @@ RUN apt-get update \
     # Install jq
     && apt-get install -y --no-install-recommends jq \
     # Install awscli
-    && apt-get install -y --no-install-recommends awscli \
+    && apt-get install -y --no-install-recommends awscli less \
     # Install unbuffer
     && apt-get install -y --no-install-recommends expect \
     # Install mysql client
