@@ -9,6 +9,8 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends jq \
     # Install awscli
     && apt-get install -y --no-install-recommends awscli less \
+    # Install ansible
+    && apt-get install -y --no-install-recommends ansible \
     # Install unbuffer
     && apt-get install -y --no-install-recommends expect \
     # Install mysql client
